@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start_dev": "webpack-dev-server --open",
-    "start": "node ./app/index.js",
+    "start": "node app.js",
     "create": "webpack",
     "build": "NODE_ENV=production webpack --config ./webpack.config.js --progress --colors"
-
   },
   "author": "Tyler McGinnis",
   "license": "MIT",
@@ -31,6 +30,7 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "express": "^4.15.5",
     "react": "^16.0.0-rc.3",
     "react-dom": "^16.0.0-rc.3"
   }
